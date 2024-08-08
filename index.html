@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
   <title>Tasks</title>
 </head>
 <body>
@@ -11,33 +12,11 @@
     <div class="container">
       <div class="app__header">
         <h1 class="app__title">Tasks</h1>
-        <input class="app__input-field" type="text">
+        <input class="app__input-field" type="text" placeholder="Write your note">
         <button class="app__input-button">+</button>
       </div>
       <div class="app__main">
-        <ul class="app__list">
-          <li class="app__item">
-            <span class="app__item-title">Купить молоко</span>
-            <div class="app__item-actions">
-              <button class="app__item-button">✔</button>
-              <button class="app__item-button button--gray">✖</button>
-            </div>
-          </li>
-          <li class="app__item">
-            <span class="app__item-title">Купить молоко</span>
-            <div class="app__item-actions">
-              <button class="app__item-button">✔</button>
-              <button class="app__item-button button--gray">✖</button>
-            </div>
-          </li>
-          <li class="app__item">
-            <span class="app__item-title">Купить молоко</span>
-            <div class="app__item-actions">
-              <button class="app__item-button">✔</button>
-              <button class="app__item-button button--gray">✖</button>
-            </div>
-          </li>
-        </ul>
+        <ul class="app__list"></ul>
       </div>
     </div>
   </div>

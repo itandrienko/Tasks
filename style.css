@@ -97,3 +97,12 @@ ul {
 .button--gray {
   background-color: rgb(180, 180, 180);
 }
+
+.title--completed {
+  text-decoration: line-through;
+  color: rgb(180, 180, 180);
+}
+
+.button--nogray {
+  background-color: rgb(237, 237, 237);
+}
