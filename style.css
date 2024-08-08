@@ -4,6 +4,7 @@
   all: unset;
   display: revert;
   box-sizing: border-box;
+  user-select: none;
 }
 
 body {
