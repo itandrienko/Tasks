@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  all: unset;
+  display: revert;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.app {
+  margin-top: 100px;
+}
+
+.app__header {
+  margin-bottom: 70px;
+}
+
+.app__title {
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.app__input-field {
+  display: block;
+  width: 100%;
+  padding: 2px 5px;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.app__input-button {
+  background-color: white;
+  display: block;
+  color: black;
+  padding: 9px 60px;
+  border-radius: 15px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.app__input-button:active {
+  opacity: 0.8;
+}
+
+.app__item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.app__item-actions {
+  display: flex;
+}
+
+.app__item-title {
+  font-size: 23px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.app__item-button {
+  font-size: 20px;
+  padding: 7px 20px;
+  margin-left: 10px;
+  border-radius: 6px;
+  color: black;
+  background-color: rgb(237, 237, 237);
+  cursor: pointer;
+}
+
+.app__item-button:active {
+  opacity: 0.8;
+}
+
+.button--gray {
+  background-color: rgb(180, 180, 180);
+}
